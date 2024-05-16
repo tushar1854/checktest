@@ -19,8 +19,5 @@ jobs:
         with:
           python-version: 3.9 # Adjust as needed
 
-      - name: Install dependencies (if needed)
-        run: pip install -r requirements.txt # Adjust if you have dependencies
-
       - name: Run tests
         run: python -m unittest # Adjust if needed
